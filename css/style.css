@@ -66,8 +66,9 @@ header ul li {
   background-position: -132px -38px;
   opacity: 0.5;
 }
-.apps-icon:hover {
-  color: #3c4043;
+.apps-icon:hover,
+.apps-icon:focus {
+  opacity: 0.85;
 }
 .profile {
   height: 34px;
